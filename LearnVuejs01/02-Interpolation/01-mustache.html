@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mustache语法</h1>
+    <!-- 实例 -->
+    <div id="app">
+        <h2>{{message}}</h2>
+        <h3>在mustache语法中不仅可以输出字符串，还可以进行简单的表达式计算，如下:</h3>
+        <h3>Hello, {{firstName + ' ' + lastName}}</h3>
+        <h3>{{counter * 2}}</h3>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: '在Vue中双大括号表示mustache语法：{{****}}',
+                firstName: 'Jacob',
+                lastName: 'Lee',
+                counter: 100
+            }
+        })
+    </script>
+</body>
+</html>

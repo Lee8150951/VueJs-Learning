@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .title {
+            color: red;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- 使用:style对对象样式进行绑定，格式{key(css属性名): value(属性值)} -->
+        <h2 :style="{fontSize: size, color: color}">{{message}}</h2>
+        <!-- 另外，样式的绑定也可以通过数组进行 -->
+        <h2 :style="[baseStyle1, baseStyle2]">{{message}}</h2>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello World',
+                size: '30px',
+                color: 'red',
+                baseStyle1: {color: 'red'},
+                baseStyle2: {fontSize: '40px'},
+            }
+        })
+    </script>
+</body>
+</html>

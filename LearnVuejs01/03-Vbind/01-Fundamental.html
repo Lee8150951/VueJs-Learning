@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 50%;
+            height: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- 错误做法：这里不可使用mustache语法 -->
+        <!-- <img src="{{imgURL}}" alt="test">
+        <h2>{{imgURL}}</h2> -->
+        <h2>给哪一个属性绑定值，就要在其前面绑定v-bind</h2>
+        <img v-bind:src="imgURL" alt="test"><br>
+        <a v-bind:href="aHREF">百度一下</a>
+
+        <h2>v-bind存在语法糖，在对应绑定属性前使用“:”即可</h2>
+        <a :href="aHREF">百度一下</a>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'message',
+                imgURL: 'C:\\Users\\61958\\Desktop\\Vue.js\\LearnVuejs01\\03-Vbind\\img\\test.jpg',
+                aHREF: 'http://www.baidu.com'
+            }
+        })
+    </script>
+</body>
+</html>

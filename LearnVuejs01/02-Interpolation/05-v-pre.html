@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h2>使用v-pre可以原封不动的展示标签内内容，不进行解析，使用很少</h2>
+        <h3>{{message}}</h3>
+        <h3 v-pre>{{message}}</h3>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello World'
+            }
+        })
+    </script>
+</body>
+</html>

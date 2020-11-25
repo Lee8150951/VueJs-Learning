@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h2>v-text指令功能与原始的mustache功能非常类似，在标签中写入v-text</h2>
+        <p>在v-text标签中写入对应data即可，注意不需要写mustache格式</p>
+        <p>与mustache格式相比较其更加不灵活，使用非常少</p>
+        <h3>{{message}}</h3>
+        <h3 v-text="message"></h3>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'message'
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h2>在vue中可以在标签中添加v-once指令，使界面中已经生成的mustache不再进行更改</h2>
+        <p>比如在F12的console中输入指令，其并不会发生变化</p>
+        <h3>{{message}}</h3>
+        <h3 v-once>{{message}}</h3>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'message'
+            }
+        })
+    </script>
+</body>
+</html>

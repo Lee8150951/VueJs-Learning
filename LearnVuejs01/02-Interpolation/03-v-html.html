@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h2>在vue中，如果后台传入的是一个完整的Html标签，可以在标签中使用v-html指令</h2>
+        <p>在v-html标签中写入对应data即可，注意不需要写mustache格式</p>
+        <h3>{{url}}</h3>
+        <h3 v-html="url"></h3>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'message',
+                url: '<a href="http://www.baidu.com">百度一下，你就知道</a>'
+            }
+        })
+    </script>
+</body>
+</html>

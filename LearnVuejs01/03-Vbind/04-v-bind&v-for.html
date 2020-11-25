@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .active {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h3 v-for="(m, index) in movies" v-on:click="hClick(index)" :class="{active:isActive == index}">
+            {{m}}
+        </h3>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'message',
+                movies: ['LoveLetter', 'Kotonoha', 'Naruto'],
+                isActive: true
+            },
+            methods: {
+                hClick: function(index) {
+                    this.isActive = index;
+                }
+            },
+        })
+    </script>
+</body>
+</html>

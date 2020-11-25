@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <!-- 使用这两种方式的代码冗余度非常高 -->
+        <h2>{{firstName + ' ' + lastName}}</h2>
+        <h2>{{firstName}} {{lastName}}</h2>
+        <!-- 使用methods对两个名字进行整合 -->
+        <h2>{{getFullName()}}</h2>
+        <!-- 使用computed(计算属性)对两个名字进行整合，而且不需要跟methods一样在后面加小括号 -->
+        <h2>{{fullName}}</h2>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                firstName: 'Jacob',
+                lastName: 'Lee'
+            },
+            methods: {
+                getFullName: function() {
+                    return this.firstName + ' ' + this.lastName;
+                }
+            },
+            // 计算属性
+            computed: {
+                // 在computed中尽可能通过属性的方式取名字，不需要加动词
+                fullName: function() {
+                    return this.firstName + ' ' + this.lastName;
+                }
+            },
+        })
+    </script>
+</body>
+</html>
