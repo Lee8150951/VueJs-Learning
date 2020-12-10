@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <!-- 该方法不需要额外参数的条件下监听调用函数和省略‘()’ -->
+        <!-- 事件调用没有参数 -->
+        <button @click="btn1Click">btn1</button>
+        <!-- 通过v-on传参 -->
+        <button @click="btn2Click(123)">btn2</button>
+        <!-- 定义方法是，需要event对象，同时也需要其他参数 -->
+        <!-- vue.js获取事件对象直接使用$event即可 -->
+        <button @click="btn3Click(123, $event)">btn3</button>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                counter: 0
+            },
+            methods: {
+                btn1Click() {
+                    console.log("btn1已被点击");
+                },
+                btn2Click(a) {
+                    console.log(a);
+                },
+                btn3Click(a, event) {
+                    console.log(a, event);
+                }
+            },
+        })
+    </script>
+</body>
+</html>

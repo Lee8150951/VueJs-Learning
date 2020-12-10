@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th {
+            background-color: rgb(245, 245, 245);
+        }
+        #app table th {
+            color: grey;
+            padding: 8px 25px;
+            font-size: 15px;
+            margin: 0px;
+            border: 1px solid rgb(230, 230, 230);
+            font-weight: bolder;
+        }
+        #app table td {
+            padding: 8px 0px;
+            font-size: 13px;
+            margin: 0px;
+            border: 1px solid rgb(230, 230, 230);
+            font-weight: 500;
+            text-align: center;
+        }
+        #app button {
+            font-size: 13px;
+            padding: 0px 7px;
+        }
+        .isMoved {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <table>
+            <tr>
+                <th>序号</th>
+                <th>书籍名称</th>
+                <th>出版日期</th>
+                <th>价格</th>
+                <th>购买数量</th>
+                <th>操作</th>
+            </tr>
+            <tr v-for="(item,index) in bookInfo" :class="{isMoved: moveFlag}">
+                <td>{{item.id}}</td>
+                <td>《{{item.name}}》</td>
+                <td>{{item.date}}</td>
+                <td>￥{{item.price}}</td>
+                <td>
+                    <button @click="sup(index)">-</button>
+                    {{item.count}}
+                    <button @click="add(index)">+</button>
+                </td>
+                <td>
+                    <button @click="removeTd(index)">移除</button>
+                </td>
+            </tr>
+        </table>
+        <h3>合计：{{sum}}元</h3>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                bookInfo: [
+                    {
+                        id: 1,
+                        name: "算法导论",
+                        date: "2006-9",
+                        price: 85.00,
+                        count: 1
+                    },
+                    {
+                        id: 2,
+                        name: "Unix编程艺术",
+                        date: "2006-2",
+                        price: 59.00,
+                        count: 1
+                    },
+                    {
+                        id: 3,
+                        name: "编程珠玑",
+                        date: "2008-10",
+                        price: 39.00,
+                        count: 1
+                    },
+                    {
+                        id: 4,
+                        name: "代码大全",
+                        date: "2006-3",
+                        price: 128.00,
+                        count: 1
+                    }
+                ],
+                moveFlag: false
+            },
+            methods: {
+                add(index) {
+                    this.bookInfo[index].count++;
+                },
+                sup(index) {
+                    if(this.bookInfo[index].count > 0) {
+                        this.bookInfo[index].count--;
+                    } else {
+                        this.bookInfo[index].count;
+                    }
+                },
+                removeTd(index) {
+                    this.bookInfo.splice(index, 1);
+                }
+            },
+            computed: {
+                sum() {
+                    let sum = 0;
+                    let factor = 0;
+                    for(let i = 0; i < this.bookInfo.length; i++) {
+                        factor = this.bookInfo[i].count * this.bookInfo[i].price;
+                        sum = sum + factor;
+                    }
+                    return sum;
+                }
+            }
+        })
+    </script>
+</body>
+</html>

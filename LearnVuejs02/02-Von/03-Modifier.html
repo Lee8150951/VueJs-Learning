@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>v-on修饰符</h2>
+    <div id="app">
+        <div @click="divClick">
+            <h3>.stop修饰符可以阻止冒泡</h3>
+            <button @click.stop="btnClick">按钮</button>
+        </div><br>
+        <div>
+            <h3>.prevent修饰符可以阻止默认事件</h3>
+            <form action="baidu">
+                <input type="text">
+                <input type="text">
+                <!-- 如果不修饰，会自动提交 -->
+                <!-- 但是修饰后可以取消默认事件 -->
+                <input type="submit" value="提交" @click.prevent="submitClick">
+            </form>
+        </div><br>
+        <div>
+            <h3>.enter监听回车键</h3>
+            <input type="text" @keyup.enter="keyUp">
+        </div><br>
+        <div>
+            <h3>.once只触发一次回调</h3>
+            <button @click.once="btn2Click">按钮</button>
+        </div>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello World'
+            },
+            methods: {
+                btnClick() {
+                    console.log('btnClick');
+                },
+                divClick() {
+                    console.log('divClick');
+                },
+                submitClick() {
+                    console.log('submitClick');
+                },
+                keyUp() {
+                    console.log('keyUp');
+                },
+                btn2Click() {
+                    console.log('btn2Click');
+                }
+            },
+        })
+    </script>
+</body>
+</html>

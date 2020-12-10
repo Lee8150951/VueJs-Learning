@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .active {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="(item, index) in movies" 
+            @click="isClicked(index)" 
+            :class="{active: currentIndex === index}">
+            <!-- 当点击的元素currentIndex等于获取的元素index时 -->
+                {{index + 1}}、{{item}}
+            </li>
+        </ul>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue!',
+                movies: ['JavaScript权威指南', 'ES6标准入门', '大数据技术基础', '剑指Offer'],
+                currentIndex: 0, // 获取哪一个准备变成红色
+            },
+            methods: {
+                isClicked(index) {
+                    // 使点击li的currentIndex等于当前li的下标index
+                    this.currentIndex = index;
+                }
+            },
+        })
+    </script>
+</body>
+</html>

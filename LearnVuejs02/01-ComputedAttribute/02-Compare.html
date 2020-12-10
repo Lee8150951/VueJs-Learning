@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h2>computed可以使用缓存，避免了多次调用</h2>
+        <!-- 使用methods -->
+        <h3>{{getFullName()}}</h3>
+        <!-- 使用computed -->
+        <h3>{{fullName}}</h3>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                firstName: 'Jacob',
+                lastName: 'Lee'
+            },
+            methods: {
+                getFullName: function() {
+                    return this.firstName + ' ' + this.lastName;
+                }
+            },
+            computed: {
+                fullName: function() {
+                    return this.firstName + ' ' + this.lastName;
+                }
+            },
+        })
+    </script>
+</body>
+</html>

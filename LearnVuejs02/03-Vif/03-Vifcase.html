@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div v-if="flag">
+            <h3>管理员</h3>
+            <form action="">
+                <input type="text" placeholder="用户名">
+                <input type="password" placeholder="密码">
+            </form>
+        </div>
+        <div v-else>
+            <h3>用户</h3>
+            <form action="">
+                <input type="text" placeholder="用户名">
+                <input type="password" placeholder="密码">
+            </form>
+        </div>
+        <button>提交</button>
+        <button @click="toggle">切换用户</button>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: "hello world!",
+                flag: true
+            },
+            methods: {
+                toggle() {
+                    this.flag = !this.flag;
+                    console.log(this.flag);
+                }
+            },
+        })
+    </script>
+</body>
+</html>

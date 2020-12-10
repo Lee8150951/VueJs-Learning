@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app1">
+        <h2 v-if="isShow">{{hello}}</h2>
+        <h2 v-else>{{bye}}</h2>
+    </div>
+    <div id="app2">
+        <h2 v-if="score >= 90">优秀</h2>
+        <h2 v-else-if="score >= 80">良好</h2>
+        <h2 v-else-if="score >= 70">中等</h2>
+        <h2 v-else-if="score >= 60">及格</h2>
+        <h2 v-else-if="score >= 0">不及格</h2>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app1 = new Vue({
+            el: '#app1',
+            data: {
+                hello: 'Hello Vue!',
+                bye: 'Bye Vue!',
+                isShow: true
+            }
+        })
+    </script>
+    <script>
+        const app2 = new Vue({
+            el: '#app2',
+            data: {
+                score: 77
+            }
+        })
+    </script>
+</body>
+</html>

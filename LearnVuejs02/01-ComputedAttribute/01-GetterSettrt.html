@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h2>{{fullName}}</h2>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                firstName: 'Jacob',
+                lastName: 'Lee'
+            },
+            computed: {
+                // fullName: function() {
+                //     return this.firstName + ' ' + this.lastName;
+                // },
+                // 完整的计算属性书写方法
+                fullName: {
+                    set: function(newValue) {
+                        // 一般情况下set方法是不需要的，这是一个只读属性
+                        // 计算属性只需要get方法
+                        console.log('set方法调用：' + newValue);
+                    },
+                    get: function() {
+                        // 此处的return返回的是mustache获取到的内容
+                        return this.firstName + ' ' + this.lastName;
+                    }
+                }
+            },
+        })
+    </script>
+</body>
+</html>

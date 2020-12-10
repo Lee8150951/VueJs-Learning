@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <!-- 1、最简单遍历，没有使用索引值 -->
+        <ul>
+            <li v-for="item in names">{{item}}</li>
+        </ul>
+        <!-- 2、在遍历的过程中，获取索引值 -->
+        <ul>
+            <li v-for="(item, index) in names">
+                {{index + 1}}.{{item}}
+            </li>
+        </ul>
+        <!-- 3、遍历对象，如下info信息 -->
+        <ul>
+            <!-- 这是只需要值的方式 -->
+            <li v-for="item in info">{{item}}</li>
+            <!-- 如果需要属性名的方式 -->
+            <!-- 官方推荐给每一个对应元素添加一个key为了高效的更新虚拟DOM -->
+            <li v-for="(value, key) in info" :key="value">
+                {{key}}: {{value}}
+            </li>
+        </ul>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                names: ['why', 'who', 'what', 'how'],
+                info: {
+                    name: 'Jacob Lee',
+                    age: 22,
+                    height: 173
+                }
+            }
+        })
+    </script>
+</body>
+</html>

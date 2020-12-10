@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <!-- 绑定key使内部性能更高 -->
+            <!-- v-for是一个响应式的方法 -->
+            <li v-for="item in letters" :key="item">{{item}}</li>
+        </ul>
+        <button @click="btnClick">按钮</button>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                letters: ['a', 'b', 'c', 'd']
+            },
+            methods: {
+                btnClick() {
+                    // 1.点击后调用push方法，响应式
+                    this.letters.push('新增');
+                    // 2.点击后通过索引，非响应式变
+                    this.letters[0] = 'e';
+                    // 3.pop（删除末尾元素）和shift（删除头元素），响应式
+                    this.letters.pop();
+                    // 4.unshift（在数组最前面添加元素），响应式
+                    this.letters.unshift('新增');
+                    // 5.splice（删除元素，插入元素，替换元素），响应式
+                    // splice(strart);
+                    // 所有功能下第一个参数都是从哪开始
+                    // 删除元素：第二个参数传入要删除几个元素（没有传则是传出所有）
+                    this.letters.splice(1, 3);
+                    // 替换元素：第二个元素表示要替换多少个元素，后面表示要替换的元素
+                    this.letters.splice(1, 3, 'a', 'b', 'c');
+                    // 插入元素：第二个参数传入0后面跟上要插入的元素
+                    this.letters.splice(1, 0, 'a', 'b', 'c');
+                    // 6.sort排序，响应式
+                    this.letters.sort();
+                    // 7.reverse反转，响应式
+                    this.letters.reverse();
+                }
+            },
+        })
+    </script>
+</body>
+</html>
