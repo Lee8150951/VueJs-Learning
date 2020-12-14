@@ -6,12 +6,19 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="app">
+        <h2>使用v-model指令实现表单元素和数据的双向绑定</h2>
+        <form action="">
+            <!-- 此处使用v-model会自动将{{message}}作为value填入 -->
+            <input type="text" v-model="message">
+        </form>
+    </div>
     <script src="../../js/vue.js"></script>
     <script>
         const app = new Vue({
             el: '#app',
             data: {
-                message: 'message'
+                message: 'Hello Vue!'
             }
         })
     </script>

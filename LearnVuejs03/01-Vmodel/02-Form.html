@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <form action="">
+            <!-- 绑定text类型 -->
+            <h2>·绑定text类型</h2>
+            <input type="text" v-model="text">
+            <h3>{{text}}</h3><br>
+
+            <!-- 绑定radio类型 -->
+            <h2>·绑定radio类型</h2>
+            <label for="male">
+                <input type="radio" name="sex" id="male" value="male" v-model="radio">
+                    male<br>
+            </label>
+            <label for="female">
+                <input type="radio" name="sex" id="female" value="female" v-model="radio">
+                    female<br>
+            </label>
+            <h3>{{radio}}</h3>
+
+            <!-- 绑定checkbox单选类型 -->
+            <h2>·绑定checkbox单选类型</h2>
+            <label for="agree">
+                <input type="checkbox" id="agree" v-model="checkboxSingle">Agree
+            </label>
+            <button :disabled="!checkboxSingle">Next</button>
+            <h3>{{checkbox}}</h3>
+
+            <!-- 绑定checkbox多选类型 -->
+            <h2>·绑定checkbox多选类型</h2>
+            <label for="pizza">
+                <input type="checkbox" id="hobbies" v-model="checkboxPlu" value="Pizza">Pizza
+            </label>
+            <label for="KFC">
+                <input type="checkbox" id="hobbies" v-model="checkboxPlu" value="KFC">KFC
+            </label>
+            <label for="Mc Donaled">
+                <input type="checkbox" id="hobbies" v-model="checkboxPlu" value="Mc Donald">Mc Donald
+            </label>
+            <label for="BurgerKing">
+                <input type="checkbox" id="hobbies" v-model="checkboxPlu" value="BurgerKing">BurgerKing
+            </label>
+            <h3>{{checkboxPlu}}</h3>
+            
+            <!-- 绑定select多选类型 -->
+            <h2>·绑定select多选类型</h2>
+            <select name="select" id="" v-model="select">
+                <option value="Pizza">Pizza</option>
+                <option value="KFC">KFC</option>
+                <option value="Mc Donald">Mc Donald</option>
+                <option value="BurgerKing">BurgerKing</option>
+            </select>
+            <h3>{{select}}</h3>
+        </form>
+    </div>
+    <script src="../../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                text: 'Hello Vue!',
+                radio: 'male', // 默认值，在radio绑定中会自动选中
+                checkboxSingle: false,
+                checkboxPlu: [],
+                select: ''
+            }
+        })
+    </script>
+</body>
+</html>

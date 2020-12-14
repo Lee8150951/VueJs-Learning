@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h2>1、修饰符：lazy</h2>
+        <h3>使用.lazy后可以避免实时加载</h3>
+        <input type="text" v-model.lazy="message">
+        <h3>{{message}}</h3><br>
+
+        <h2>2、修饰符：number</h2>
+        <h3>使用.number可以要求用户输入的信息只能是Number型</h3>
+        <input type="number" v-model.number="age">
+        <h3>{{age}}----{{typeof age}}</h3>
+
+        <h2>3、修饰符：trim</h2>
+        <h3>使用.trim可以拨出两边的空格</h3>
+        <h3>虽然浏览器中不会显示，但事实上是存在大量空格的</h3>
+        <input type="text" v-model="name">
+        <h3>{{name}}</h3>
+    </div>
+    <script src="../../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue!',
+                age: 0,
+                name: ''
+            }
+        })
+    </script>
+</body>
+</html>

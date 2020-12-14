@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49dd5c80-abae-4acf-8b5a-f2d2c32a5d4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Vue.js.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/01-FirstTouch/01-HelloVuejs.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/01-FirstTouch/01-HelloVuejs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/01-FirstTouch/02-List.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/01-FirstTouch/02-List.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/01-FirstTouch/03-Counter.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/01-FirstTouch/03-Counter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/01-FirstTouch/04-Template.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/01-FirstTouch/04-Template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/02-Interpolation/01-mustache.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/02-Interpolation/01-mustache.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/02-Interpolation/02-v-once.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/02-Interpolation/02-v-once.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/02-Interpolation/03-v-html.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/02-Interpolation/03-v-html.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/02-Interpolation/04-v-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/02-Interpolation/04-v-text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/02-Interpolation/05-v-pre.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/02-Interpolation/05-v-pre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/02-Interpolation/06-v-cloak.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/02-Interpolation/06-v-cloak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/03-Vbind/01-Fundamental.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/03-Vbind/01-Fundamental.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/03-Vbind/02-DynamicBind.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/03-Vbind/02-DynamicBind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/03-Vbind/03-ArrayBind.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/03-Vbind/03-ArrayBind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/03-Vbind/04-v-bind&amp;v-for.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/03-Vbind/04-v-bind&amp;v-for.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/03-Vbind/05-styleBind.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/03-Vbind/05-styleBind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/04-ComputedAttribute/01-Fundamental.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/04-ComputedAttribute/01-Fundamental.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/04-ComputedAttribute/02-ComplexUse.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs01/04-ComputedAttribute/02-ComplexUse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs01/js/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs02/01-ComputedAttribute/01-GetterSettrt.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs02/01-ComputedAttribute/01-GetterSettrt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs02/01-ComputedAttribute/02-Compare.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs02/01-ComputedAttribute/02-Compare.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs02/02-Von/01-Fundamental.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs02/02-Von/01-Fundamental.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs02/02-Von/02-ParamConvert.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs02/02-Von/02-ParamConvert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs02/02-Von/03-Modifier.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs02/02-Von/03-Modifier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs02/03-Vif/01-Fundamental.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs02/03-Vif/01-Fundamental.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs02/03-Vif/02-Vif&amp;Velse.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs02/03-Vif/02-Vif&amp;Velse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs02/03-Vif/03-Vifcase.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs02/03-Vif/03-Vifcase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs02/03-Vif/04-Vshow.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs02/03-Vif/04-Vshow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs02/04-Vfor/01-Fundamental.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs02/04-Vfor/01-Fundamental.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs02/04-Vfor/02-Responsive.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs02/04-Vfor/02-Responsive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs02/05-Instance/01-Instance01.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs02/05-Instance/01-Instance01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs02/05-Instance/02-instance02.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs02/05-Instance/02-instance02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs02/js/vue.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1le8dfeA5ZZ6bzModnLPuni3NUP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49dd5c80-abae-4acf-8b5a-f2d2c32a5d4e" name="Default Changelist" comment="" />
+      <created>1607946291981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607946291981</updated>
+      <workItem from="1607946297767" duration="1121000" />
+      <workItem from="1607950858281" duration="2710000" />
+      <workItem from="1607956315300" duration="83000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

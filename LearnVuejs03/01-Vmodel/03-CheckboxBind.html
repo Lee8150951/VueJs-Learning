@@ -7,21 +7,21 @@
 </head>
 <body>
     <div id="app">
-        <ul>
-            <li v-for = "item in movies">{{item}}</li>
-        </ul>
+        <form action="">
+            <label v-for="item in origin">
+                <input type="checkbox" :value="item" v-model="checkbox">{{item}}
+            </label>
+            <h3>{{checkbox}}</h3>
+        </form>
     </div>
     <script src="../../js/vue.js"></script>
     <script>
         const app = new Vue({
             el: '#app',
             data: {
-                message: 'Hello',
-                movies: [
-                    'One Piece',
-                    'Avengers',
-                    'Three Kingdoms Romance'
-                ]
+                message: 'Hello Vue!',
+                origin: ['Pizza', 'KFC', 'Mc Donald', 'BurgerKing'],
+                checkbox: []
             }
         })
     </script>

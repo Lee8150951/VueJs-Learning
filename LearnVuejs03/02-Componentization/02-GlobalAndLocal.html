@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <tempo></tempo>
+    </div>
+    <div id="app1">
+        <tempo></tempo>
+    </div>
+    <script src="../../js/vue.js"></script>
+    <script>
+        // 1.创建组件构造器
+        const Constructor = Vue.extend({
+            // ES6规定``可以作为字符串使用，可以换行，而''和""不行
+            template: `
+                <div>
+                    <h3>通过组件构造器创建模板</h3>
+                </div>`
+        });
+        // 2.注册组件(这种注册方式属于全局注册)
+        // Vue.component('tempo', Constructor)
+
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue!'
+            },
+            // 在实例下面注册的组件属于局部组件
+            components: {
+                tempo: Constructor
+            }
+        })
+
+        const app1 = new Vue({
+            el: '#app1'
+        })
+    </script>
+</body>
+</html>

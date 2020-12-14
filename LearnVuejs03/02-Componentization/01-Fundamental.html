@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>注册组件的基本步骤</h1>
+    <h2>1.创建组件构造器Vue.extend()--->2.注册组件Vue.component()--->3.使用组件</h2>
+    <div id="app">
+        <tempo></tempo>
+    </div>
+    <script src="../../js/vue.js"></script>
+    <script>
+        // 1.创建组件构造器
+        const Constructor = Vue.extend({
+            // ES6规定``可以作为字符串使用，可以换行，而''和""不行
+            template: `
+                <div>
+                    <h3>通过组件构造器创建模板</h3>
+                </div>`
+        });
+        // 2.注册组件(也就是给组件取名字，以后用什么标签进行使用)
+        Vue.component('tempo', Constructor)
+
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello Vue!'
+            }
+        })
+    </script>
+</body>
+</html>
