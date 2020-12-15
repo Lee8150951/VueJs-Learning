@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>使用组件获取数据</h2>
+    <template id="cpn">
+        <div>
+            <h2>组件</h2>
+            <h3>{{message}}</h3>
+        </div>
+    </template>
+    <div id="app">
+        <cpn></cpn>
+    </div>
+    <script src="../../js/vue.js"></script>
+    <script>
+        Vue.component('cpn', {
+            template: cpn,
+            data() {
+                return {
+                    message: 'Hello Component!'
+                }
+            }
+        })
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello World!'
+            }
+        });
+    </script>
+</body>
+</html>

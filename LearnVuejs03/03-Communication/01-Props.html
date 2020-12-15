@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <!--    使用v-bind可以通过读取父组件信息到子组件的props属性    -->
+        <cpn :cmovies="movies" :cmessage="message"></cpn>
+    </div>
+    <template id="tempo">
+        <div>
+            <h2>{{cmovis}}</h2><br>
+            <h2>{{cmessage}}</h2>
+        </div>
+    </template>
+    <script src="../../js/vue.js"></script>
+    <script>
+        // 父组件传达子组件通过props
+        const cpn = {
+            template: tempo,
+            // 1、props用于保存需要使用的变量名，储存为数组形式
+            // props: ['cmovies', 'cmessage'],
+            // 2、props使用对象形式存储父组件传过来的信息
+            props: {
+                // 使用这种方式可以对传过来的数据进行类型限制
+                // 限制传过来的是数组
+                cmovies: Array,
+                // 还可以提供默认值
+                cmessage: {
+                    // 类型限制
+                    type: String,
+                    // 没提供的情况下就使用默认值
+                    // 注意：类型是对象或数组的情况下，默认值必须是一个函数
+                    // default() {return []}
+                    default: 'default',
+                    // 通过required可以设置某个值必传
+                    required: true
+                }
+            },
+            data() {
+                return {}
+            }
+        }
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello World!',
+                movies: ['BatMan', 'SuperMan', 'SpiderMan', 'IronMan']
+            },
+            components: {
+                'cpn': cpn
+            }
+        });
+    </script>
+</body>
+</html>

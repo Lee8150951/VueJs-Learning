@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>模板抽离</h1>
+    <h2>1、方法一：使用script标签抽离</h2>
+    <!--  注意类型必须是text/x-template  -->
+    <script type="text/x-template" id="cpn1">
+        <div>
+            <h2>方法一组件</h2>
+            <p>content</p>
+        </div>
+    </script>
+
+    <h2>2、方法二：使用template标签抽离</h2>
+    <template id="cpn2">
+        <div>
+            <h2>方法二组件</h2>
+            <p>content</p>
+        </div>
+    </template>
+
+    <!--  组件使用  -->
+    <div id="app">
+        <cpn1></cpn1>
+        <cpn2></cpn2>
+    </div>
+
+    <script src="../../js/vue.js"></script>
+    <script>
+        Vue.component('cpn1', {
+            template: cpn1
+        });
+        Vue.component('cpn2', {
+            template: cpn2
+        })
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello World!'
+            }
+        });
+    </script>
+</body>
+</html>

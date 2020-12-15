@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <cpn_2></cpn_2>
+    </div>
+    <script src="../../js/vue.js"></script>
+    <script>
+        // 创建子组件构造器
+        const cpn_1 = Vue.extend({
+            template: `
+                <div>
+                    <h3>子组件</h3>
+                    <p>content1</p>
+                </div>`
+        })
+        // 创建父组件构造器
+        const cpn_2 = Vue.extend({
+            template: `
+                <div>
+                    <h3>父组件</h3>
+                    <p>content2</p>
+                    <h2>此处使用了子组件:</h2>
+                    <cpn_1></cpn_1>
+                </div>`,
+            // 通过extend()方法下新建components属性来注册子组件
+            components: {
+                cpn_1: cpn_1
+            }
+        })
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello World!'
+            },
+            components: {
+                // 此处添加父组件构造器进行注册即可，不用添加子组件
+                cpn_2: cpn_2
+            }
+        });
+    </script>
+</body>
+</html>
