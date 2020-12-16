@@ -11,14 +11,14 @@
     </div>
     <template id="tempo">
         <div>
-            <h2>{{cmovis}}</h2><br>
+            <h2>{{cmovies}}</h2><br>
             <h2>{{cmessage}}</h2>
         </div>
     </template>
     <script src="../../js/vue.js"></script>
     <script>
         // 父组件传达子组件通过props
-        const cpn = {
+        const cpn1 = {
             template: tempo,
             // 1、props用于保存需要使用的变量名，储存为数组形式
             // props: ['cmovies', 'cmessage'],
@@ -50,7 +50,7 @@
                 movies: ['BatMan', 'SuperMan', 'SpiderMan', 'IronMan']
             },
             components: {
-                'cpn': cpn
+                'cpn': cpn1
             }
         });
     </script>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <!--  此处应该使用-进行分割  -->
+        <cpn :c-info="info"></cpn>
+    </div>
+    <template id="tempo">
+        <h2>{{cInfo}}</h2>
+    </template>
+    <script src="../../js/vue.js"></script>
+    <script>
+        const cpn = {
+            template: tempo,
+            props: {
+                // 如果这里使用的是驼峰命名法，在引用数据时要用-隔开
+                cInfo: {
+                    type: Object,
+                    default() {
+                        return{}
+                    }
+                }
+            }
+        }
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello World!',
+                info: {
+                    name: 'Jacob',
+                    age: 22,
+                    height: 173
+                }
+            },
+            components: {
+                cpn
+            }
+        });
+    </script>
+</body>
+</html>

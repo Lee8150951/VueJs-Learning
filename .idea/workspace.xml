@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49dd5c80-abae-4acf-8b5a-f2d2c32a5d4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/61958.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnVuejs03/02-Componentization/03-ParentAndSon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnVuejs03/02-Componentization/04-SyntacticSugar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnVuejs03/02-Componentization/05-OutOfTemp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnVuejs03/02-Componentization/06-TempGetData.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnVuejs03/03-Communication/01-Props.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs03/03-Communication/02-HumpName.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnVuejs03/03-Communication/03-Custom.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs03/03-Communication/01-Props.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs03/03-Communication/01-Props.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Vue Single File Component" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -40,7 +37,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -49,7 +45,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,6 +63,8 @@
       <workItem from="1608006344705" duration="4208000" />
       <workItem from="1608018924522" duration="6449000" />
       <workItem from="1608038332960" duration="3574000" />
+      <workItem from="1608086833350" duration="4526000" />
+      <workItem from="1608092899091" duration="4881000" />
     </task>
     <servers />
   </component>
