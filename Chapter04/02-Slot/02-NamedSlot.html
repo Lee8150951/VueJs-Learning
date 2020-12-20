@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!-- 指向slot中的name属性 -->
+    <cpn><span slot="middle">title</span></cpn>
+</div>
+<template id="temp">
+    <div>
+        <h2>组件</h2>
+        <p>组件内容</p>
+        <slot name="left"><span>left</span></slot>
+        <slot name="middle"><span>middle</span></slot>
+        <slot name="right"><span>right</span></slot>
+    </div>
+</template>
+<script src="../../js/vue.js"></script>
+<script>
+    const cpn = {
+        template: temp
+    }
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello World!'
+        },
+        components: {
+            cpn: cpn
+        }
+    });
+</script>
+</body>
+</html>

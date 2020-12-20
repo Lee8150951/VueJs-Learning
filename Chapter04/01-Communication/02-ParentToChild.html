@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <cpn></cpn>
+        <cpn></cpn>
+        <!-- 通过ref命名一个类似于id功能的东西 -->
+        <cpn ref="a"></cpn>
+        <button @click="btnClick1">Click($children)</button>
+        <button @click="btnClick2">Click($refs)</button>
+    </div>
+    <template id="tempo">
+        <div>
+            <h2>Child</h2>
+        </div>
+    </template>
+    <script src="../../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello World!'
+            },
+            methods: {
+                // 1.通过$children方法(不推荐)
+                btnClick1() {
+                    console.log(this.$children);
+                    for(let c of this.$children) {
+                        console.log(c.name);
+                        c.showMessage();// 访问子组件中的方法
+                        console.log(c.name);// 访问子组件中的属性
+                    }
+                },
+                // 2.通过$refs方法(推荐)
+                btnClick2() {
+                    // 获取到ref属性获得对应child
+                    console.log(this.$refs.a);
+                }
+            },
+            components: {
+                cpn: {
+                    template: tempo,
+                    data() {
+                        return {
+                            name: '子组件name属性'
+                        }
+                    },
+                    methods: {
+                        showMessage() {
+                            console.log('showMessage')
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <cpn></cpn>
+    </div>
+    <template id="tempo">
+        <div>
+            <h2>Tempo</h2>
+            <button @click="btnClick">Click</button>
+        </div>
+    </template>
+    <template id="ctempo">
+        <div>
+            <h2>Ctempo</h2>
+            <button @click="btnClick">Click</button>
+        </div>
+    </template>
+    <script src="../../js/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'Hello World!'
+            },
+            methods: {
+            },
+            components: {
+                cpn: {
+                    template: tempo,
+                    components: {
+                        // 嵌套组件
+                        ccpn: {
+                            template: ctempo,
+                            methods: {
+                                btnClick() {
+                                    // 1.访问父组件$parent
+                                    console.log(this.$parent);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!-- 使用slot后直接在引用部分书写要用的东西 -->
+    <cpn>
+        <button>Click</button>
+    </cpn>
+    <cpn>
+        <input type="text">
+    </cpn>
+    <cpn>
+        <h3>Hello Vue</h3>
+    </cpn>
+    <cpn></cpn>
+</div>
+<template id="temp">
+    <div>
+        <h2>组件</h2>
+        <p>组件内容</p>
+        <!-- 使用slot插槽可以产生一个定制化的预留空间 -->
+        <!-- 使用slot后直接在引用部分书写要用的东西 -->
+        <!-- 在slot标签内可以写入默认值用于显示 -->
+        <slot>
+            <h3>slot默认展示</h3>
+        </slot>
+    </div>
+</template>
+<script src="../../js/vue.js"></script>
+<script>
+    const cpn = {
+        template: temp,
+
+    }
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello World!'
+        },
+        components: {
+            cpn: cpn
+        }
+    });
+</script>
+</body>
+</html>

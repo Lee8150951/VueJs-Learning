@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49dd5c80-abae-4acf-8b5a-f2d2c32a5d4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LearnVuejs03/03-Communication/02-HumpName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnVuejs03/03-Communication/03-Custom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/01-Communication/01-TwoWayBind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/01-Communication/02-ParentToChild.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/01-Communication/03-ChildToParent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/02-Slot/01-Fundamental.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/02-Slot/02-NamedSlot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/02-Slot/03-ScopeSlot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnVuejs03/03-Communication/01-Props.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs03/03-Communication/01-Props.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -65,6 +69,10 @@
       <workItem from="1608038332960" duration="3574000" />
       <workItem from="1608086833350" duration="4526000" />
       <workItem from="1608092899091" duration="4881000" />
+      <workItem from="1608274564756" duration="3647000" />
+      <workItem from="1608356114266" duration="5179000" />
+      <workItem from="1608459611519" duration="10057000" />
+      <workItem from="1608473520883" duration="21000" />
     </task>
     <servers />
   </component>
