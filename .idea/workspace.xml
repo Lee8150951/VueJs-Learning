@@ -2,12 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49dd5c80-abae-4acf-8b5a-f2d2c32a5d4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter04/01-Communication/01-TwoWayBind.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter04/01-Communication/02-ParentToChild.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter04/01-Communication/03-ChildToParent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter04/02-Slot/01-Fundamental.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter04/02-Slot/02-NamedSlot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter04/02-Slot/03-ScopeSlot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/03-Module/01-Exports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/03-Module/get.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/03-Module/test1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/03-Module/test2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/04-Webpack/dist/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/04-Webpack/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/04-Webpack/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/04-Webpack/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/04-Webpack/src/css/normal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/04-Webpack/src/css/special.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/04-Webpack/src/img/1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/04-Webpack/src/img/2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/04-Webpack/src/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/04-Webpack/src/js/mathUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/04-Webpack/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/04-Webpack/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/dist/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/dist/img/1.eabeb083.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/src/css/normal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/src/css/special.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/src/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/src/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/src/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/src/js/mathUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +43,17 @@
       <list>
         <option value="Vue Single File Component" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Less File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/Chapter04/04-Webpack/package.json" />
   </component>
   <component name="ProjectId" id="1le8dfeA5ZZ6bzModnLPuni3NUP" />
   <component name="ProjectLevelVcsManager">
@@ -42,15 +71,37 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter05/01-Vue+Webpack" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\61958\Desktop\Vue.js\Chapter05\01-Vue+Webpack" />
+      <recent name="C:\Users\61958\Desktop\Vue.js\Chapter04\04-Webpack\src\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\61958\Desktop\Vue.js\Chapter04\04-Webpack\src" />
+      <recent name="C:\Users\61958\Desktop\Vue.js\Chapter04\04-Webpack\src\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Chapter04/04-Webpack/src/main.js" working-dir="$PROJECT_DIR$/Chapter04/04-Webpack/src">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.main.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,6 +124,8 @@
       <workItem from="1608356114266" duration="5179000" />
       <workItem from="1608459611519" duration="10057000" />
       <workItem from="1608473520883" duration="21000" />
+      <workItem from="1608556239816" duration="6556000" />
+      <workItem from="1608613377055" duration="12717000" />
     </task>
     <servers />
   </component>
