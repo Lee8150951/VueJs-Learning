@@ -43,7 +43,20 @@ module.exports = {
                         presets: ['es2015']
                     }
                 }
+            },
+            {
+                // 配置vue-loader
+                test: /\.vue$/,
+                use: ['vue-loader']
             }
         ]
+    },
+    // 在此处配置有关vue的编译问题
+    resolve: {
+        alias: {
+            // 以后在代码里面使用了import后会先找vue是否指向了一个具体的文件夹
+            // 指定vue下面的vue.esm.js文件执行，而不是默认的执行方式
+            'vue$': 'vue/dist/vue.esm.js'
+        }
     }
 }

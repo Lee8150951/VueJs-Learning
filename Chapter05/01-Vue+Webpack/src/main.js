@@ -1,10 +1,12 @@
-const {add, mul} = require('./js/mathUtils.js')
+import Vue from 'vue'
 
-add(1, 5)
-console.log(add(1, 5))
+// 通过app.js抽离vue文件至其他文件夹
+import App from './vue/App.vue'
 
-// 依赖css文件
-require('./css/normal.css')
-
-// 依赖less文件
-require('./css/special.less')
+new Vue({
+    el: '#app',
+    template: `<App/>`,
+    components: {
+        App
+    }
+})
