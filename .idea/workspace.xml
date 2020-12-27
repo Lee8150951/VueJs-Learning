@@ -2,15 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49dd5c80-abae-4acf-8b5a-f2d2c32a5d4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/src/vue/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/src/vue/Tempo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/dist/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/dist/img/1.eabeb083.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/css/normal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/css/special.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/js/mathUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/vue/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/vue/Tempo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/dist/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/dist/img/1.eabeb083.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/css/normal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/css/special.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/js/mathUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/vue/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/vue/Tempo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/build/base.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/build/dev.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/build/prod.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/dist/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/dist/img/1.eabeb083.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/css/normal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/css/special.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/js/mathUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/vue/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/vue/Tempo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Vue.js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Vue.js.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/dist/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/01-Vue+Webpack/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +64,8 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="Less File" />
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -50,7 +91,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter05/01-Vue+Webpack" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter05" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -64,6 +105,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\61958\Desktop\Vue.js\Chapter05" />
       <recent name="C:\Users\61958\Desktop\Vue.js\Chapter05\01-Vue+Webpack" />
       <recent name="C:\Users\61958\Desktop\Vue.js\Chapter04\04-Webpack\src\img" />
     </key>
@@ -106,6 +148,10 @@
       <workItem from="1608556239816" duration="6556000" />
       <workItem from="1608613377055" duration="12717000" />
       <workItem from="1608987624292" duration="4976000" />
+      <workItem from="1609027904447" duration="1823000" />
+      <workItem from="1609029759415" duration="2679000" />
+      <workItem from="1609039917549" duration="1002000" />
+      <workItem from="1609045022367" duration="2148000" />
     </task>
     <servers />
   </component>
