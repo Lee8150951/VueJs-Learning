@@ -2,30 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49dd5c80-abae-4acf-8b5a-f2d2c32a5d4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/02-VueCLI4/vuecliv4/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/02-VueCLI4/vuecliv4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/02-VueCLI4/vuecliv4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/02-VueCLI4/vuecliv4/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/02-VueCLI4/vuecliv4/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/02-VueCLI4/vuecliv4/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/02-VueCLI4/vuecliv4/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/02-VueCLI4/vuecliv4/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/02-VueCLI4/vuecliv4/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/02-VueCLI4/vuecliv4/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/02-VueCLI4/vuecliv4/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/02-VueCLI4/vuecliv4/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/02-VueCLI4/vuecliv4/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,6 +124,7 @@
       <workItem from="1609126967532" duration="571000" />
       <workItem from="1609134477725" duration="1129000" />
       <workItem from="1609136142385" duration="39000" />
+      <workItem from="1609152725832" duration="7035000" />
     </task>
     <servers />
   </component>
