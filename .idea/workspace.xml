@@ -2,55 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49dd5c80-abae-4acf-8b5a-f2d2c32a5d4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/dist/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/dist/img/1.eabeb083.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/css/normal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/css/special.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/img/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/js/mathUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/vue/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/src/vue/Tempo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/02-Plugin/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/dist/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/dist/img/1.eabeb083.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/css/normal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/css/special.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/img/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/js/mathUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/vue/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/src/vue/Tempo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/03-WebpackServer/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/build/base.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/build/dev.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/build/prod.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/dist/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/dist/img/1.eabeb083.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/css/normal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/css/special.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/img/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/js/mathUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/vue/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05/04-PullAwayConfig/src/vue/Tempo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Vue.js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Vue.js.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter06/01-VueCLI2/vuecliv2/static/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,6 +127,14 @@
       <workItem from="1609029759415" duration="2679000" />
       <workItem from="1609039917549" duration="1002000" />
       <workItem from="1609045022367" duration="2148000" />
+      <workItem from="1609115287673" duration="1633000" />
+      <workItem from="1609123982753" duration="1057000" />
+      <workItem from="1609125228321" duration="56000" />
+      <workItem from="1609125309523" duration="1468000" />
+      <workItem from="1609126868049" duration="18000" />
+      <workItem from="1609126967532" duration="571000" />
+      <workItem from="1609134477725" duration="1129000" />
+      <workItem from="1609136142385" duration="39000" />
     </task>
     <servers />
   </component>
