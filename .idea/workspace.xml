@@ -2,33 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49dd5c80-abae-4acf-8b5a-f2d2c32a5d4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/build/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/components/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/components/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/components/HomeMessage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/components/HomeNews.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/components/Profile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/components/User.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +59,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Vue" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -141,6 +122,10 @@
       <workItem from="1609152725832" duration="7035000" />
       <workItem from="1609205898356" duration="3864000" />
       <workItem from="1609211874702" duration="7076000" />
+      <workItem from="1609288183829" duration="461000" />
+      <workItem from="1609288705657" duration="2476000" />
+      <workItem from="1609292380263" duration="7738000" />
+      <workItem from="1609310381500" duration="2919000" />
     </task>
     <servers />
   </component>

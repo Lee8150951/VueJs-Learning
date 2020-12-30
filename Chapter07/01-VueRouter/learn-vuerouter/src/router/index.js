@@ -1,9 +1,18 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-// 导入组件
-import Home from '@/components/Home'
-import About from '@/components/About'
+// 导入组件(原生写法)
+// import Home from '@/components/Home'
+// import About from '@/components/About'
+// import User from '@/components/User'
+
+// 导入组件(路由懒加载)
+const Home = () => import('../components/Home')
+const About = () => import('../components/About')
+const User = () => import('../components/User')
+const Profile = () => import('../components/Profile')
+const HomeNews = () => import('../components/HomeNews')
+const HomeMessage = () => import('../components/HomeMessage')
 
 Vue.use(Router)
 
@@ -18,11 +27,37 @@ const routes = [
   },
   {
     path: '/home',
-    component: Home
+    component: Home,
+    // 配置子路由
+    children: [
+      {
+        // 默认显示
+        path: '',
+        component: HomeMessage
+      },
+      {
+        // 子路由路径不能加/
+        path: 'message',
+        component: HomeMessage
+      },
+      {
+        // 子路由路径不能加/
+        path: 'news',
+        component: HomeNews
+      }
+    ]
   },
   {
     path: '/about',
     component: About
+  },
+  {
+    path: '/user/:userId',
+    component: User
+  },
+  {
+    path: '/profile',
+    component: Profile
   }
 ]
 
