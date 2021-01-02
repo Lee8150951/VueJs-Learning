@@ -23,11 +23,17 @@ const routes = [
     // 缺省值表示默认状态
     path: '/',
     // 重定向
-    redirect: '/home'
+    redirect: '/home',
+    meta: {
+      title: 'Index'
+    }
   },
   {
     path: '/home',
     component: Home,
+    meta: {
+      title: 'Home'
+    },
     // 配置子路由
     children: [
       {
@@ -49,19 +55,28 @@ const routes = [
   },
   {
     path: '/about',
-    component: About
+    component: About,
+    meta: {
+      title: 'About'
+    }
   },
   {
     path: '/user/:userId',
-    component: User
+    component: User,
+    meta: {
+      title: 'User'
+    }
   },
   {
     path: '/profile',
-    component: Profile
+    component: Profile,
+    meta: {
+      title: 'Profile'
+    }
   }
 ]
 
-export default new Router({
+const router = new Router({
   // 配置路径和组件的映射关系
   routes,
   // mode模式，默认为hash，可以修改为HTML5的history模式
@@ -69,3 +84,14 @@ export default new Router({
   // linkActiveClass可以直接统一修改被激活时的样式
   linkActiveClass: 'active'
 })
+
+// 配置全局守卫
+router.beforeEach(((to, from, next) => {
+  // 从from跳转到to(获取to的meta中title)
+  document.title = to.matched[0].meta.title
+  console.log(to);
+  // next一定要调用，不调用Vue会拒绝跳转
+  next()
+}))
+
+export default router

@@ -14,7 +14,7 @@
         // 获取当前用户名
         return this.$route.params.userId
       }
-    },
+    }
   }
 </script>
 

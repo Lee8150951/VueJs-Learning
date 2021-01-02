@@ -9,7 +9,14 @@
     <!-- path表示路径，query表示要传的参数 -->
     <router-link :to="{path: '/profile', query: {name: 'Jacob', age: 22, height: 173}}" tag="button" replace>Profile</router-link>
     <router-link :to="/user/+userId" tag="button" replace>User</router-link>
-    <router-view></router-view>
+
+    <!-- keep-alive标签可以缓存某些组件，第二次使用时避免二次渲染 -->
+    <!-- include属性：表示包含缓存哪些组件 -->
+    <!-- exclude属性：表示排除缓存哪些组件 -->
+    <!-- 这里使用到的就是每个vue组件下的name属性(注意这里两者之间逗号后不能加空格) -->
+    <keep-alive exclude="Profile,User">
+      <router-view></router-view>
+    </keep-alive>
 
     <!-- 另一种方式的切换 -->
     <button @click="homeClick">Home</button>
