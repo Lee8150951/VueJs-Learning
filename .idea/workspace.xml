@@ -2,50 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49dd5c80-abae-4acf-8b5a-f2d2c32a5d4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/build/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/assets/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/assets/img/tabbar/Category-active.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/assets/img/tabbar/Category.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/assets/img/tabbar/Home-active.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/assets/img/tabbar/Home.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/assets/img/tabbar/Profile-active.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/assets/img/tabbar/Profile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/assets/img/tabbar/Shopcart-active.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/assets/img/tabbar/Shopcart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/components/tabbar/TabBar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/components/tabbar/TabBarItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/views/category/Category.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/views/home/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/views/profile/Profile.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/views/shopcart/Shopcart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/components/HelloVueX.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/static/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/components/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/components/About.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/components/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/components/User.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/components/User.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter07/01-VueRouter/learn-vuerouter/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +40,10 @@
       <list>
         <option value="HTML File" />
         <option value="Less File" />
-        <option value="JavaScript File" />
         <option value="package.json" />
         <option value="CSS File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -86,7 +69,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter07/02-TabBar/tabbar/src/assets/img/tabbar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/package.json" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -95,6 +78,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="ts.external.directory.path" value="D:\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -112,12 +96,23 @@
       <recent name="C:\Users\61958\Desktop\Vue.js\Chapter04\04-Webpack\src\js" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Chapter04/04-Webpack/src/main.js" working-dir="$PROJECT_DIR$/Chapter04/04-Webpack/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="Node.js.main.js" />
       </list>
     </recent_temporary>
@@ -169,6 +164,10 @@
       <workItem from="1609405993123" duration="561000" />
       <workItem from="1609552341645" duration="7267000" />
       <workItem from="1609578146482" duration="1669000" />
+      <workItem from="1609633731866" duration="599000" />
+      <workItem from="1609673263023" duration="1842000" />
+      <workItem from="1609675145628" duration="1142000" />
+      <workItem from="1609676319491" duration="5279000" />
     </task>
     <servers />
   </component>
