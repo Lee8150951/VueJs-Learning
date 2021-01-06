@@ -14,6 +14,9 @@
     <button @click="addCount(10)">+10</button>
     <button @click="addStudent">addStudent</button>
     <h2>{{biggerAge}}</h2>
+    <h1><---------vuex数据响应原理----------></h1>
+    <h2>{{$store.state.info}}</h2>
+    <button @click="updateInfo">修改信息</button>
     <!-- getters的使用 -->
     <h1>3.getters的使用</h1>
     <h2>{{$store.state.counter_vuex}}</h2>
@@ -62,6 +65,11 @@ export default {
       // payload(负载一个参数)
       const stu = {id: 114, name: 'Allen', age: 70}
       this.$store.commit('addStudent', stu)
+    },
+    updateInfo() {
+      // this.$store.commit('updateInfo')
+      // 异步请求，要执行index中的actions方法(使用dispatch)
+      this.$store.dispatch('actionUpdateInfo')
     }
   },
   computed: {

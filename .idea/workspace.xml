@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49dd5c80-abae-4acf-8b5a-f2d2c32a5d4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/store/action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/store/getter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/store/index_Before_Refactoring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/store/mutation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/store/index.js" afterDir="false" />
     </list>
@@ -46,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/package.json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/store" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,6 +67,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\61958\Desktop\Vue.js\Chapter08\01-VueX\learnvuex\src\store" />
       <recent name="C:\Users\61958\Desktop\Vue.js\Chapter07\02-TabBar\tabbar\src\assets\img\tabbar" />
       <recent name="C:\Users\61958\Desktop\Vue.js\Chapter05" />
       <recent name="C:\Users\61958\Desktop\Vue.js\Chapter05\01-Vue+Webpack" />
@@ -148,6 +153,9 @@
       <workItem from="1609720631004" duration="919000" />
       <workItem from="1609893549631" duration="2075000" />
       <workItem from="1609895778495" duration="9325000" />
+      <workItem from="1609934850198" duration="696000" />
+      <workItem from="1609938114631" duration="3871000" />
+      <workItem from="1609942054991" duration="1445000" />
     </task>
     <servers />
   </component>
