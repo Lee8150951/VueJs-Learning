@@ -10,6 +10,17 @@
     <h2>{{$store.state.counter_vuex}}</h2>
     <button @click="addition">+</button>
     <button @click="subtraction">-</button>
+    <button @click="addCount(5)">+5</button>
+    <button @click="addCount(10)">+10</button>
+    <button @click="addStudent">addStudent</button>
+    <h2>{{biggerAge}}</h2>
+    <!-- getters的使用 -->
+    <h1>3.getters的使用</h1>
+    <h2>{{$store.state.counter_vuex}}</h2>
+    <h2>{{$store.getters.powerCounter}}</h2>
+    <h2>{{$store.getters.more40Age}}</h2>
+    <h2>{{$store.getters.more40AgeLength}}</h2>
+    <h2>{{$store.getters.moreAgeStu(10)}}</h2>
   </div>
 </template>
 
@@ -33,6 +44,32 @@ export default {
     },
     subtraction() {
       this.$store.commit('decrement')
+    },
+    addCount(count) {
+      // payload(负载一个参数)
+      // 1、普通提交封装
+      // this.$store.commit('incrementCount', count)
+      // 2、特殊提交封装
+      this.$store.commit({
+        // type：对应vuex中的mutation事件类型名
+        type: 'incrementCount',
+        // 数据携带
+        count
+      })
+    },
+    // 传一个student对象
+    addStudent() {
+      // payload(负载一个参数)
+      const stu = {id: 114, name: 'Allen', age: 70}
+      this.$store.commit('addStudent', stu)
+    }
+  },
+  computed: {
+    biggerAge() {
+      // 使用filte方法进行对age大于40的人的过滤，用法如下
+      return this.$store.state.students.filter(s => {
+        return s.age >= 40
+      })
     }
   }
 }
