@@ -2,14 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49dd5c80-abae-4acf-8b5a-f2d2c32a5d4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/store/action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/store/getter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/store/index_Before_Refactoring.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/store/mutation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/src/network/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter08/02-Axios/axios-learn/static/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter08/01-VueX/learnvuex/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +174,7 @@
       <workItem from="1609934850198" duration="696000" />
       <workItem from="1609938114631" duration="3871000" />
       <workItem from="1609942054991" duration="1445000" />
+      <workItem from="1609979943890" duration="12518000" />
     </task>
     <servers />
   </component>
